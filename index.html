@@ -15,7 +15,7 @@
 <body class="fade-in" id="top">
     <a href="index.html"><img id="static-logo" class="main-logo" src="images/logo4.png"></a>
     <div class="hero"></div>
-        <div id="header" class="top-div" style="top: -100px;">
+        <div id="header" class="top-div" style="top: 0px;">
             <a href="index.html"><img class="logo" src="images/logo4.png"></a>
     <span class="top-div-text">
         <a class="first-top-txt" href="index.html">Home</a>
@@ -23,7 +23,6 @@
         <a class="third-top-txt" href="#scroll-place-two">Why an App?</a>
     </span>
         </div>
-        
             <h1 class="title">Anime, For Free.<br>For Real.</h1>
         <div class="download">
           <button class="desktop-download" id="droid-image"><h4>Download for Android</h4>   
@@ -32,13 +31,14 @@
 <button class="mobile-download-btn" id="droid-image"><h4>Download</h4>   
     <img src="android-logo.png">
 </button>
-
+<form method="get" action="dist/Core%20Anime%20Setup%201.0.0.exe">
     <button id="win-image" class="desktop-download">
-    <div class="win-btn-txt">
-        <img class="windows-img" src="windows-logo.png">
-        <h4>Download for Windows 10</h4>   
-    </div>
-</button>
+        <div class="win-btn-txt">
+            <img class="windows-img" src="windows-logo.png">
+            <h4>Download for Windows 10</h4>   
+        </div>
+    </button>
+</form>
 <button id="win-image" class="mobile-download-btn">
     <div class="win-btn-txt">
         <img class="windows-img" src="windows-logo.png">
@@ -54,8 +54,7 @@
         <h4>Download</h4>   
         <img src="https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg">
     </button>
-</div>
-            
+</div>   
             <div id="arrow-container" class="arrow bounce">
                 <a href="#scroll-place" class="fa fa-arrow-down fa-2x"></a>
             </div>
@@ -89,9 +88,16 @@
     </div>
         <img src="images/gon-killua.png">
     </div>
-    <div class="footer">
+    <div class="fourth-page-container">
+    <h1 class="socials-title">Our Social Media!</h1>
+    <div class="btn-cont">
+        <button onclick="location.href='https://github.com/chaarlie130?tab=repositories'" id="socialbtn">Github<img src="images/GitHub-Mark-Light-32px.png"></button>
+        <button onclick="location.href='https://discord.gg/KduRtZchaV'" id="socialbtn">Discord <img src="images/LogoSmall.png"></button>
+        <button onclick="location.href='https://core-anime.com'" id="socialbtn">Website <img src="images/whiteLogo.png"></button>
+        <button onclick="location.href='https://gmail.com'"id="socialbtn">Email <img src="images/447037.png"></button>
+    </div>
+</div><div class="footer">
         <p class="sub-title">*Core Anime is avalible on all Windows 10 and Android Deivces. Plans for releases to Apple products Are still in developement. Downloading and Installing Core Anime means that you concent and relize all the legal risk of running the App, Core Anime is not responsible for any legal trouble you can face.</p>
     </div>
-
 </body>
 </html>
