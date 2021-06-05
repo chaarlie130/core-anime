@@ -303,7 +303,7 @@ a { color: white; text-decoration: none; }
 }
 @media only screen and (max-height: 800px) {
   .title {
-    margin-top: -750px;
+    margin-top: -650px;
   }
 }
 @media only screen and (max-width: 768px) {
